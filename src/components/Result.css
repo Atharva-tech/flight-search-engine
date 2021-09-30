@@ -1,0 +1,44 @@
+.flightsHeader {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.flightDeptAndReturn {
+  display: flex;
+  flex-direction: row;
+  margin-top: -10px;
+  margin-left: 25px;
+}
+.flightDept {
+  margin-right: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.flightReturn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.flightDept p {
+  margin-top: -10px;
+  color: #0066b2;
+  font-weight: bold;
+}
+
+.flightReturn p {
+  margin-top: -10px;
+  color: #0066b2;
+  font-weight: bold;
+}
+
+.flightsBody {
+}
+
+.icon {
+  animation: fadeInLeft;
+  animation-duration: 3s;
+}

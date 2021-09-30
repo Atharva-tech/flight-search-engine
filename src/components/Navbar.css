@@ -1,0 +1,19 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: #034694;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  width: 95%;
+  border-radius: 15px;
+  margin-left: 60px;
+  margin-top: 20px;
+  color: white;
+}
+
+.planeIcon {
+  margin-right: 10px;
+  animation: fadeInLeft;
+  animation-duration: 5s;
+}

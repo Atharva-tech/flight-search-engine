@@ -1,0 +1,9 @@
+.card {
+  display: flex;
+  justify-content: center;
+}
+
+.body {
+  margin-top: 10%;
+  color: gray;
+}
