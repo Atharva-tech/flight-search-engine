@@ -77,7 +77,7 @@ function FlightSearch() {
     e.currentTarget.type = "text";
   };
 
-  //this function gives flights details according to our inputs
+  //this function gives flights details according to your inputs
   const handleFilter = () => {
     let result = flightData.filter((data) => {
       if (
@@ -99,7 +99,7 @@ function FlightSearch() {
     setFilteredData(result);
   };
 
-  //this function gives return flights details according to our inputs
+  //this function gives return flights details according to your inputs
   const returnFilter = () => {
     let result = flightData.filter((data) => {
       if (

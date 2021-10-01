@@ -9,7 +9,6 @@
 }
 
 .searchIcon {
-  /* animation: fadeIn; */
   animation: zoomIn;
   animation-duration: 5s;
 }

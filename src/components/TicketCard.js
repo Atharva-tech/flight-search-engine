@@ -3,6 +3,8 @@ import "./TicketCard.css";
 import { IoAirplaneOutline } from "react-icons/io5";
 import { BsCircleFill } from "react-icons/bs";
 
+// used card component for ticket details
+
 function TicketCard(props) {
   const { filteredData, passengerCount } = props;
 
