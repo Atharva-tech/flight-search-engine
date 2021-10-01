@@ -44,9 +44,13 @@ function TicketCard(props) {
                   </b>
                 </span>
 
-                <div>{data.code}</div>
-                <div>Depart :{data.departTime}</div>
-                <div>Arrive :{data.arrivalTime}</div>
+                <div style={{ marginTop: "5px" }}>{data.code}</div>
+                <div style={{ marginTop: "5px" }}>
+                  Depart time:{data.departTime}
+                </div>
+                <div style={{ marginTop: "5px" }}>
+                  Arrive time:{data.arrivalTime}
+                </div>
               </div>
 
               <div className="ticketImgAndBtn">

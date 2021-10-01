@@ -22,6 +22,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-top: -4px;
 }
 .flightDept p {
   margin-top: -10px;
@@ -33,9 +34,6 @@
   margin-top: -10px;
   color: #0066b2;
   font-weight: bold;
-}
-
-.flightsBody {
 }
 
 .icon {

@@ -7,3 +7,9 @@
   margin-top: 10%;
   color: gray;
 }
+
+.searchIcon {
+  /* animation: fadeIn; */
+  animation: zoomIn;
+  animation-duration: 5s;
+}

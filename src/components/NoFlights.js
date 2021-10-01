@@ -1,12 +1,13 @@
 import React from "react";
-import { IoAirplaneOutline } from "react-icons/io5";
+
+import { BsSearch } from "react-icons/bs";
 import "./NoFlights.css";
 
 function NoFlights() {
   return (
     <div className="card">
       <div className="body">
-        <IoAirplaneOutline size={60} />
+        <BsSearch size={60} className="searchIcon" />
         <h2>Search for flights</h2>
       </div>
     </div>

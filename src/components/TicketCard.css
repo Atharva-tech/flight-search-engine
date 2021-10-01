@@ -13,7 +13,6 @@
 .ticketBody {
   display: flex;
   flex-direction: column;
-  margin: 10px 10px 10px 10px;
 }
 
 .ticketPriceAndQty {
@@ -30,7 +29,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  bottom: 145px;
+  bottom: 150px;
   left: 160px;
   align-items: center;
 }
